@@ -1,6 +1,6 @@
 "use client"
 import { useState, useEffect } from "react";
-export default function client() {
+export default function ClientPage() {
 
  const [count, setCount] = useState(0)
 

@@ -1,22 +1,20 @@
-import { useState } from "react";
-import { GetServerSideProps } from 'next'
-import { type } from "os";
+// import { GetServerSideProps } from 'next'
 
-type TestProps = {
-  initialCount: number
-}
-const getServerSideProps: GetServerSideProps = async (ctx) => {
-  // 从服务器获取数据的逻辑
-  const initialCount = 13
-  return {
-    props: {
-      initialCount,
-    }
-  }
-}
-export default function Test({ initialCount }: TestProps) {
+// type TestProps = {
+//   initialCount: number
+// }
+// const getServerSideProps: GetServerSideProps = async (ctx) => {
+//   // 从服务器获取数据的逻辑
+//   const initialCount = 13
+//   return {
+//     props: {
+//       initialCount,
+//     }
+//   }
+// }
+export default function ServerPage() {
  
- const count = initialCount
+ const count = 0
  console.log(11, count)
   // const [count, setCount] = useState(initialCount)
 
